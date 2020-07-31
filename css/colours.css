@@ -3,13 +3,14 @@ body {
     color: white;
 }
 a {
-    color: white;
+    color: #0039e6;
 }
 a:link {
   text-decoration: none;
 }
 a:visited {
   text-decoration: none;
+  color: #001a66;
 }
 a:hover {
   text-decoration: underline;
