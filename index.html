@@ -23,6 +23,14 @@
         <li>Pseudocode</li>
         <li>English</li>
     </ol>
+    <p id="fooling"></p>
+    <script>
+		var date = new Date().toLocaleDateString().toString()
+		console.log(date)
+		if (date.startsWith("4/1/")) {
+			document.getElementById("fooling").innerHTML = "<a href = \"https://www.youtube.com/watch?v=dQw4w9WgXcQ\">My favourite song!</a>"
+		}
+    </script>
     <div id="footer">
     </div>
 </body>
