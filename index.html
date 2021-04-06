@@ -2,27 +2,28 @@
 <html lang="en">
 <head>
     <title>Ruthenic's Website</title>
-    <link rel="stylesheet" type="text/css" href="css/index.css">
     <link rel="stylesheet" type="text/css" href="css/classes.css">
+    <script src="https://code.jquery.com/jquery-3.6.0.js"></script>
+    <script>
+    $(function() { //load footer
+        $("#footer").load("footer.html");
+    });
+    </script>
 </head>
 <body>
     <center><h1>Ruthenic's site</h1></center> <!--originally intended to be only written in CSS and HTML but f**k that-->
-    <p>Is a person, who can occasionaly make decent code in a variety of languages, also known as only C#.</p>
+    <p>Hello, welcome to my website! Please Enjoy the experience</p>
     <a href ="https://github.com/Ruthenic"><marquee behavior="scroll" direction="left">Checkout (haha) my Github!</marquee></a>
     <p>Favorite Programming Languages:</p>
     <ol>
-        <li>C#</li>
         <li>Python</li>
-        <li>Java</li>
-        <li>Everything not in the list</li>
+        <li>C#</li>
         <li>Machine Code</li>
+        <li>Java</li>
         <li>Pseudocode</li>
         <li>English</li>
     </ol>
-    <p>Find more info about me <a href = "info.html">here</a>.</p>
-    <p><a href = "https://www.youtube.com/watch?v=K8DBs0QLqq4">My favorite song!</a></p>
-    <!--<div class="footer"> footer for navigation
-        <p>test</p>
-    </div>-->
+    <div id="footer">
+    </div>
 </body>
 </html>

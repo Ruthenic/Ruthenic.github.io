@@ -3,12 +3,17 @@
 <head>
     <title>Information</title>
     <link rel="stylesheet" type="text/css" href="css/classes.css">
-    <link rel="stylesheet" type="text/css" href="css/colours.css">
+    <!--<link rel="stylesheet" type="text/css" href="css/colours.css">-->
+    <script src="https://code.jquery.com/jquery-3.6.0.js"></script>
+    <script>
+    $(function() { //load footer
+        $("#footer").load("footer.html");
+    });
+    </script>
 </head>
 <body>
-    <p>Hey all, Ruthenic here! Currently, specializes in bad C# coding and occasionally does some cool stuff (not very often tho). Working on <a href = "https://ruthenic.github.io/simushell/">SimuShell</a>. Proud user of Linux.</p>
-    <div class="footer"> <!--footer for navigation-->
-        <p><a href = "index.html">Return to home page</a></p>
+    <p>Hey all, Ruthenic here! Currently, specializes in bad Python coding and occasionally does some cool stuff (not very often tho). Working on <a href = "https://github.com/Ruthenic/rodder">Rodder</a>. Proud user of Linux.</p>
+    <div id="footer">
     </div>
 </body>
 </html>
