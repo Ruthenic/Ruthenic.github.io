@@ -9,6 +9,11 @@
         $("#footer").load("footer.html");
     });
     </script>
+    <script>
+    var xhttp = new XMLHttpRequest();
+	xhttp.open("POST", "https://ruthenic-analytics.herokuapp.com/analytics", true);
+	xhttp.send(); //spooky analytics
+    </script>
 </head>
 <body>
     <center><h1>Ruthenic's site</h1></center> <!--originally intended to be only written in CSS and HTML but f**k that-->
