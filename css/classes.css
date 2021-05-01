@@ -6,10 +6,10 @@
   height: 100;
 }
 .white {
-  color: #FFFFFF;
+  background-color: #DDDDDD;
 }
 .grey {
-  background-color: #251F1E;
+  color: #000000;
 }
 
 .padding {
