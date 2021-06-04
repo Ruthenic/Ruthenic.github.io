@@ -16,3 +16,8 @@
 	position: relative;
 	left: 10px;
 }
+
+.padding-right {
+	position: relative;
+	right: 10px;
+}
