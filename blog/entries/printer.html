@@ -5,18 +5,16 @@
     <link rel="stylesheet" type="text/css" href="css/classes.css">
     <link rel="stylesheet" type="text/css" href="/css/dark-mode.css">
     <!--<link rel="stylesheet" type="text/css" href="css/colours.css">-->
-    <script src="https://code.jquery.com/jquery-3.6.0.js"></script> <!--pain-->
-    <script>
-    $(function() { //load footer
-        $("#footer").load("footer.html");
-    });
-    </script>
+    <script src="/footer.js"></script>
     <meta property="og:type" content="website">
     <meta property="og:title" content="Why are printers terrible?" />
     <meta property="og:description" content="Fuck you, Canon." />
     <meta property="og:url" content="https://www.ruthenic.com/blog/entries/printer.html" />
 </head>
 <body>
+	<script>
+		getFooter("/blog/entries/footer.html")
+	</script>
 	<p>Why are printers so terrible? I mean, is it that hard to make a functional product? I know this has been well walked ground, but any printer I've ever used makes me wanna send my head through a wall!</p>
 	<p>As an example, just today, just 10 minutes ago even, I had to reconnect a printer to the internet. Simple, right? WRONG!</p>
 	<p>So to start off with, I went to <a href = "https://www.usa.canon.com/internet/portal/us/home/support/details/printers/support-inkjet-printer/ts-series/ts3122/pixma-ts3122">Canon's website for my printer model</a> to try and find a manual to reconnect it. Issue: I run Linux. None of the manuals are for Linux.</p>
