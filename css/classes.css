@@ -1,3 +1,7 @@
+a + a {
+    margin-left: 5px;
+} /*i will kill you if this breaks other parts of the site*/
+
 .footer {
   position: fixed;
   bottom: 0;
