@@ -1,22 +1,22 @@
 body {
-	background-color:#171B19;
+	background-color:#333333;
 	color:white;
-};
+}
 pre {
-	background-color:white;
-};
+	background-color:#555555;
+}
 a {
-	color:#18B6FA;
-};
+	color:#47FF58;
+}
 a:link {
-	color:#18B6FA;
-};
+	color:#47FF58;
+}
 a:visited {
-	color:#18B6FA;
-};
+	color:#47FF58;
+}
 a:hover {
-	color:#18B6FA;
-};
+	color:#47FF58;
+}
 a:active {
-	color:#18B6FA;
-};
+	color:#47FF58;
+}
